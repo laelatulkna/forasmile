@@ -27,7 +27,6 @@
                   <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Jumlah Donasi</th>
                   <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Tujuan Alokasi</th>
                   <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Tanggal DOnasi</th>
-                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Bukti Transfer</th>
                   <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
                 </tr>
               </thead>
@@ -69,11 +68,6 @@
                       <td>
                         <p class="text-xs font-weight-bold mb-0">
                           {{ $item->tanggal_donasi }}
-                        </p>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">
-                          {{ $item->bukti_transfer }}
                         </p>
                       </td>
                       <td>
