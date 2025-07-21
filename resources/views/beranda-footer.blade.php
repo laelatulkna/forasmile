@@ -53,6 +53,6 @@
     </div>
 
     <div class="text-center d-block d-sm-none mt-4 mb-5">
-      <span class="text-white">Copyright @2023 Forasmile</span>
+      <span class="text-white">Copyright @2025 Forasmile</span>
     </div>
   </div>

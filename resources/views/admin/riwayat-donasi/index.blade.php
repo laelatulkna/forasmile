@@ -21,7 +21,6 @@
             <table class="table align-items-center mb-0">
               <thead>
                 <tr>
-                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Aksi</th>
                   <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">No</th>
                   <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nama Donatur</th>
                   <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Jumlah Donasi</th>
@@ -35,16 +34,7 @@
                 @if ($data)
 
                   @foreach ($data as $item)
-                    <tr>
-                      <td>
-                        <form onsubmit="return confirm('Apakah Anda Yakin Menghapus?')" class="d-inline" action="{{ route('admin.riwayat-donasi.destroy', $item->id_donasi) }}" method="POST">
-                          @csrf
-                          @method('delete')
-                          <button class="badge btn-custom badge-sm bg-gradient-danger border-0">
-                            Hapus
-                          </button>
-                        </form>
-                      </td>
+
                       <td>
                         <p class="text-xs font-weight-bold mb-0">
                           {{ $loop->iteration }}
